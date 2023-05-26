@@ -12,7 +12,7 @@ export function KeyStroke() {
           const event = e as KeyboardEvent;
           let newLogs;
           if (eventName in logMap) {
-            newLogs = [...logMap[eventName], event.key];
+            newLogs = [event.key, ...logMap[eventName]];
           } else {
             newLogs = [event.key];
           }
@@ -74,7 +74,7 @@ export function KeyStroke() {
           <div key={eventIndex} className="m-2 text-left p-2">
             {logs.length > 0 && `-${eventName} log-`}
 
-            {logs.reverse().map((log, logIndex) => (
+            {logs.map((log, logIndex) => (
               <div key={logIndex}>
                 [{logs.length - logIndex}] {log}
                 <br />
