@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="flex">
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -15,9 +15,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      
-      <Link to="/keystroke">Key Stroke</Link>
+
+      <h2 className="text-2xl">
+      <Link to="/keystroke">Key Stroke Demo</Link>
+      </h2>
       
     </>
   )
