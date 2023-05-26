@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@r2wc/react-to-web-component':
+    specifier: ^2.0.2
+    version: 2.0.2(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1724,6 +1727,21 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@r2wc/core@1.0.0:
+    resolution: {integrity: sha512-P/P1YXpCXESnJKxFGXDZFrldov3T5wqeJSgQNWMgTkuV4CA9C+gVwv2guadkB7h5PuFyJxaLLbK6vl2VAUltpA==}
+    dev: false
+
+  /@r2wc/react-to-web-component@2.0.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-HxgWXh6aipgvZ7l31m+AN0mM8KI5jkiCEBnSMBl/UKibVrhFgtsumL8fmLd5/q+OHBJKK0w4e5sAmzY1yu8dpA==}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      '@r2wc/core': 1.0.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /@remix-run/router@1.6.2:
     resolution: {integrity: sha512-LzqpSrMK/3JBAVBI9u3NWtOhWNw5AMQfrUFYB0+bDHTSw17z++WJLsPsxAuK+oSddsxk4d7F/JcdDPM1M5YAhA==}

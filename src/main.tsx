@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { KeyStroke } from "./KeyStroke.tsx";
+import { WebComponentDemo } from "./WebComponentDemo.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/keystroke",
     element: <KeyStroke />,
+  },
+  {
+    path: "web-component",
+    element: <WebComponentDemo />,
   },
 ]);
 

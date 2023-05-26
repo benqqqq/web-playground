@@ -18,6 +18,8 @@ function App() {
 
       <h2 className="text-2xl">
       <Link to="/keystroke">Key Stroke Demo</Link>
+      <br/>
+      <Link to="/web-component">Web Component Demo</Link>
       </h2>
       
     </>
