@@ -3,7 +3,7 @@
 
 # DEMO
 
-https://web-playground.benqqqq.github.io/
+https://benqqqq.github.io/web-playground/
 
 
 Key Stroke Demo : demo keypress / keydown / keyup
