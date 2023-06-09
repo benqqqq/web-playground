@@ -50,15 +50,10 @@ export function KeyStroke() {
       <hr />
 
       <p className="text-sm text-left m-2">
-        In general, if you are dealing with <strong className="text-green-300">textual input</strong>,
-        such as capturing user-typed characters or validating input,
-        the <strong className="text-green-300">onkeypress</strong> event is typically the most appropriate choice.
+        <strong className="text-red-300">keypress</strong> is going to deprecated, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event" target="_blank" rel="noopener noreferrer">MDN</a>
       </p>
       <p className="text-sm text-left m-2">
-        However, if you need to <strong className="text-blue-300">capture</strong> non-character keys,
-        track keyboard state changes,
-        or detect key combinations,
-        you may need to use <strong className="text-blue-300">onkeydown</strong> or <strong className="text-blue-300">onkeyup</strong>.
+        use <strong className="text-blue-300">onkeydown</strong> or <strong className="text-blue-300">onkeyup</strong> instead
       </p>
       <hr/>
       <p className="text-sm  m-2">
